@@ -1,5 +1,7 @@
 // Obtain the img element, and assign it to the image variable
-let image 
+let image = "pet";
+image.src= "file:///Users/apple/Documents/rambo.%20Search_files/876bb7a8-e8dd-4e36-ab3a-f0b9aba942e5.jpg"
+    document.getElementById.appendChild(img)
 
 // Obtain the 'shrink-grow' button, and assign it to the changeSize variable
 let changeSize 

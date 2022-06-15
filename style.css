@@ -7,3 +7,17 @@ img {
 /* add code here to change the color and font family of your name/title */
 
 /* Bonus: change the color of your list elements */
+
+ul {
+    list-style-type: element;
+  }
+  
+  ul li::before {
+    content: "\2022";
+    color: blue;
+    font-weight: bold;
+    display: right; 
+    width: 1em;
+    margin-left: -1em;
+  }
+  
