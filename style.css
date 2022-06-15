@@ -13,7 +13,7 @@ ul {
     list-style-type: element;
   }
   
-  ul li::before {
+  li {
     content: "\2022";
     color: blue;
     font-weight: bold;
